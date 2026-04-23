@@ -1,9 +1,9 @@
 #include "stdio.h"
 
 int main() {
-    float nota1, nota2, media
+    float nota1, nota2, media;
 
-    printf("Digite a primeira nota: ");
+    printf("Digite a primeira nota: \n "); ///Adicionado ";" para correção do "printf"
     scanf("%f", &nota1);
 
     printf("Digite a segunda nota: ");
@@ -18,4 +18,5 @@ int main() {
     }
 
     return 0;
+    
 }
